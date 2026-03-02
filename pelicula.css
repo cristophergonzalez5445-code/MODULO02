@@ -1,0 +1,30 @@
+
+/* Poster*/ 
+body {
+    font-family: Arial, Helvetica;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #0c0c0c;
+    text-align: center;
+    text-rendering: optimizeSpeed;
+    font-size: 25px;
+    padding: 30px 30px;
+}
+
+/* Sinopsis */ 
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    text-decoration-color: rgb(89, 206, 206);
+    padding: 40px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+img {
+    width: 580px;
+    height: auto;
+}
