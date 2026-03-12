@@ -1,0 +1,82 @@
+button {
+
+  background-color: grey; /* Color inicial del botón */
+
+  color: white;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  cursor: pointer;
+
+}
+
+button:hover {
+
+  background-color: blue; /* Color del botón cuando el ratón pasa por encima */
+
+}
+
+  .mi-clase {
+
+  background-color: rgb(248, 248, 4);
+
+}
+
+p::first-line {    
+  color:brown
+}
+
+.rojo {
+  color: red;
+  font-weight: bold;
+}
+
+#mi-id {
+
+  font-size: 24px;
+
+}
+
+.caja{
+  background-color: rgb(203, 209, 207);
+  font-size: 20px;
+  padding: 1px;
+  margin:1px;
+  border:1px;
+}
+
+.flex-container {
+
+  display: flex; /* Define al contenedor como un contenedor flex */
+
+  background-color: #f4f4f4;
+
+  padding: 10px;
+
+  justify-content: center; /* Centra horizontalmente */
+
+  align-items: center; /* Centra verticalmente */
+
+  height: 300px; /* Definimos un tamaño para ver la alineación */
+
+}
+
+
+.item {
+
+  background-color: #007BFF;
+
+  color: white;
+
+  padding: 20px;
+
+  margin: 10px;
+
+  text-align: center;
+
+  border-radius: 5px;
+
+}
+

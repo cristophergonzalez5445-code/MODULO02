@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f6f6;
+    margin:0;
+}
+
+/* HEADER */
+
+.header{
+    background-color:#006241;
+    color:white;
+    padding:20px;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+.main-container{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+
+/* CAJA DEL FORMULARIO */
+
+.register-box{
+    background:white;
+    width:500px;
+    padding:30px;
+    border-radius:5px;
+    box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+.register-box h1{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.register-box h2{
+    font-size:16px;
+    margin-top:20px;
+}
+
+/* INPUTS */
+
+.form-group{
+    margin-bottom:15px;
+}
+
+.form-group label{
+    display:block;
+    font-size:14px;
+    margin-bottom:5px;
+}
+
+.form-group input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+}
+
+/* CUMPLEAÑOS */
+
+.birthday{
+    margin-top:15px;
+}
+
+.birthday-inputs{
+    display:flex;
+    gap:10px;
+}
+
+.birthday-inputs input{
+    flex:1;
+    padding:10px;
+}
+
+/* OPCIONES */
+
+.option{
+    margin-top:10px;
+}
+
+.option label{
+    margin-left:8px;
+}
+
+/* BOTON */
+
+.button-area{
+    margin-top:20px;
+}
+
+button{
+    background-color:#006241;
+    color:white;
+    border:none;
+    padding:12px;
+    width:100%;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#004f34;
+}
+
+/* FOOTER */
+
+.footer{
+    text-align:center;
+    margin-top:40px;
+    padding:20px;
+    background:#eeeeee;
+}

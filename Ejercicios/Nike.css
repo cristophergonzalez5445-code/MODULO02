@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+/*/ Encabezado section/*/
+header{
+    Padding:0px;
+    border:70px;
+    font-family: "Oswald",sans-serif;
+    background: black;
+    color:azure;
+}
+
+.navbar{
+    position:absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px 5px;
+    z-index: 10;    
+}
+
+.logo{
+    padding-left:15px;
+    font-weight: bold;
+    color:white;
+    font-style: italic;
+    font-size:40px;
+    letter-spacing:0px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size:14px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    font-size:14px;
+    text-align: center;
+}
+
+.icons{
+    border-radius: 100%;
+}
+
+#corazon:hover{
+    content: "❤️";
+}
+
+/*/ Tarjetas section/*/
+
+body{
+    margin:0;
+    font-family: "Oswald",sans-serif;
+    background-color: white;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size:x-small;
+}
+
+.Doit{
+    text-align: end;
+    font-weight: bold;
+    color:white;
+    height: 20vh;
+    background: linear-gradient(to top, #000000,transparent), 
+    url(https://wallpaperaccess.com/full/257005.jpg) center/cover;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding:5px;
+}
+/*/ Tenis/*/
+    .Lanzamientos{
+        margin: 20px;
+}
+
+    .container{
+        border-color:rgb(0, 0, 0);
+        display: flex;
+        gap: 150px;
+        justify-content: center;
+        overflow-x: auto;
+        padding-top:0px;
+        padding-bottom: 100px;
+}
+
+    .container img{
+        display:flex;
+        align-items: center;
+        width: 220px;
+        height: 130px;
+        cursor:pointer;
+        padding-left:50px;
+    
+}
+
+    .Modelo1{
+        padding: 10px;
+        border:1px solid gray;
+        box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    
+    .Modelo2{
+        padding: 10px;
+        border:1px solid gray;
+        box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    }
+    
+    .Modelo3{
+        padding: 10px;
+        border:1px solid gray;
+        box-shadow:0 4px 8px rgba(0,0,0,0.2);
+
+    }
+
+    img:hover{
+        transform:scale(1.015);
+}
+
+    h3:hover{
+         transform:scale(1.015);
+    }
+
+    /*/ Footer/*/
+
+    .Footer{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    Background-color: rgb(235, 235, 235);
+
+}
+
+    .Footer b:hover{
+    text-decoration: underline;
+    font-size:14px;
+    text-align: center;
+}
+
+
+    /* Swoosh fijo */
+    .Nike_Swoosh{
+    width:20px;
+    height:20px;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:white;
+    border-radius:50px;
+    padding:8px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+
+    #Swoosh{
+    width:100%;
+    height:auto;
+}
+

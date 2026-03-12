@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin:0;
+    font-family: "Roboto",sans-serif;
+    background: #141414;
+    color: white;
+}
+
+.navbar{
+    position:absolute;
+    top: 0;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    z-index: 10;
+}
+
+.logo{
+    color:red;
+    font-size:40px;
+    letter-spacing:1px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size:14px;
+}
+
+.menu a:hover{
+    font-size:18px;
+    color: red;
+}
+
+/*/ Hero Section/*/
+.hero{
+    height: 80vh;
+    background: linear-gradient(to top, #141414,transparent), 
+    url(https://wallpapers.com/images/hd/stranger-things-inspired-sky-w11wnbwdud8xr933.jpg) center/cover;
+
+    display:flex;
+    align-items: center;
+    padding:60px;
+}
+
+.hero-info{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    gap:10px;
+
+}
+
+.play{
+    background:white;
+    color:black;
+    border:none;
+    padding:10px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.play:hover{
+    background-color: red;
+    transform:scale(1.10);
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.info{
+    background:white;
+    color:black;
+    border:none;
+    padding:10px;
+    margin:5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.info:hover{
+    background-color: red;
+    transform:scale(1.10);
+    font-weight: bold;
+    cursor:pointer;
+}
+
+/*/ Peliculas/*/
+    .peliculas{
+        margin: 20px;
+    }
+
+    .container{
+        display: flex;
+        gap: 15px;
+        overflow-x: auto;
+        padding-top:10px;
+
+    }
+
+    .container img{
+        width: 200px;
+        height: 300px;
+        border-radius: 5%;
+        cursor:pointer;
+    }
+
+    img:hover{
+        transform:scale(1.05);
+    }

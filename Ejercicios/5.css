@@ -1,0 +1,17 @@
+.container{
+    background-color: rgb(51, 51, 51);
+    border: 1px solid black;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items:center;
+    align-items: start;
+
+
+}
+.item{
+    background-color: rgb(235, 73, 73);
+    border: 1px solid black;
+}
